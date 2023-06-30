@@ -54,7 +54,8 @@ header {
     border-bottom: 1px solid #ededed;
 }
 .card-border-hover:hover .card{
-    border: 2px solid #0062ae;
+    border: 1px solid #0062ae;
+    border-bottom: 3px solid #0062ae;
 }
 .nav-item{
     font-size: 20px;
