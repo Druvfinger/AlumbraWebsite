@@ -11,22 +11,6 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-
-.box-frontpage {
-    width: calc(33% - 20px);
-    background-color: #f9f9f9;
-    margin-bottom: 20px;
-    position: relative;
-}
-.box-bigtext {
-    width: 100%;
-    max-width: 780px;
-    margin: 0 auto;
-    padding: 20px 0;
-    text-align: center;
-    clear: both;
-    color: #666666;
-}
 a {
     color: #666666;
     text-decoration: none;
@@ -44,14 +28,6 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-header {
-    width: 100%;
-    position: fixed;
-    z-index: 2000;
-    background: #fff;
-    top: 0;
-    border-bottom: 1px solid #ededed;
 }
 .card-border-hover:hover .card{
     border: 1px solid #0062ae;
