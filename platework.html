@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alumbra AB</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+<!-- HEADER START-->
+
+<header>
+    <nav class="navbar navbar-expand-lg border-bottom pe-5 pt-3 ps-5 ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">
+          <img src="Images/AlumbraLogo.png" alt="" style="max-width: 200px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <div class="nav-item dropdown ps-4 pt-1">
+              <a class="nav-link dropdown-toggle-split" href="#" id="aboutDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Om</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="about.html">Vision & Affärsidé</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="managment.html">Ledning</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="certificates.html">Certifieringar</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="sectors.html">Marknadssektorer</a></li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown ps-4 pt-1">
+              <a href="#" class="nav-link dropdown-toggle-split" id="stockholmDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Stockholm</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="stockholm.html">Om Alumbra Stockholm</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="dipcuring.html">Saltbadslödning</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="productdevelopment.html">Produktutveckling</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="workshop.html">Mekanisk Verkstad</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="surfacetreatment.html">Ytbehandling</a></li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown ps-4 pt-1">
+              <a href="#" class="nav-link dropdown-toggle-split" id="profilteknikDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profilteknik</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Om Profilteknik</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Plåtbearbetning</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Mekanisk Verkstad</a></li>
+              </ul>
+            </div>
+            <div class="nav-item dropdown ps-4 pt-1">
+              <a href="#" class="nav-link dropdown-toggle-split" id="urshultDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Urshult</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="urshult.html">Om Alumbra Urshult</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Plåtbearbetning</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="assembly.html">Montering/Lackering</a></li>
+              </ul>
+            </div>
+            <div class="nav-item ps-4 pt-1">
+              <a href="contact.html" class="nav-link">Kontakt</a>
+            </div>
+            <div class="nav-item icon-link-hover ps-4 pt-1">
+              <img src="Images/Flag_of_the_United_Kingdom_(1-2).svg.png" style="max-height: 20px; " alt="" onclick="changelanguage()">
+            </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+  
+<!-- HEADER END-->
+
+
+<main>
+    <section>
+        <div class="container mt-4 mb-5">
+            <h2 class="text-center" style="color: #0062ae;">PLÅTBEARBETNING</h2>
+            <hr>
+            <p class="text-center pb-3" style="font-size: 20px; font-style: italic; font-weight: 400; color: #666666; line-height: 28px;">
+                Alumbra Urshult utför de flesta typer av plåtbearbetning och har modern utrustning för
+                stansning, kantpressning, excenterpress och svets. Alumbras styrka är att med bredd, kompetens och lång erfarenhet kunna leverera avancerad plåtbearbetning kostnadseffektivt. <br><br>
+                Alumbra bedriver plåtbearbetning i de flesta varianter av tunnplåt.
+            </p>
+
+            <h4 class="text-center mt-4" style="color: #0062ae;">Legotillverkning</h4>
+             
+         
+            <h4 class="text-center mt-4" style="color: #0062ae;">Svetsning</h4>
+            <p class="text-center">
+              Vår svetsning är ett hantverk som kräver skickliga svetsare men också en bra arbetsmiljö som ger förutsättningar att göra ett bra jobb under säkra förhållanden. Vi erbjuder även robotsvetsning. <br><br>
+              &bullet; TIG svetsning <br>
+              &bullet; MIG svetsning <br>
+              &bullet; Lödning <br>
+              &bullet; Robotpunktsvetsning
+            </p>
+
+
+            <h2 class="text-center mt-4" style="color: #0062ae;">MASKINPARK</h2>
+            <hr>
+
+            <h4 class="text-center mt-4" style="color: #0062ae;">Stansning</h4>
+            <div class="container">
+              <div class="row mt-4 row-gap-3">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="card">
+                    <img src="Images/s-prima-power.jpg" alt="" class="card-img-top">
+                    <h2 class="card-title ps-3" style="color: #0062ae;"> Prima Power E5x </h2>
+                    <div class="card-body">
+                      <p>
+                        Servoelektrisk stansmaskin med Compact Express för automatisk hantering av råvara och färdiga detaljer. <br>
+                        Max plåtformat: 2500x1270 <br>
+                        Max presskraft: 230 KN
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="card">
+                  <img src="Images/s-finn-power.jpg" alt="" class="card-img-top">
+                  <h2 class="card-title ps-3" style="color: #0062ae;"> Finn Power SG6 </h2>
+                  <div class="card-body">
+                    <p>
+                      Stansmaskin med vinkelsax och automatisk hantering av råvara och färdiga detaljer. <br>
+                      Max plåtformat: 3000x1500 <br>
+                      Max presskraft: 300 kN
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="card">
+                  <img src="Images/s-pullmax.jpg" alt="" class="card-img-top">
+                  <h2 class="card-title ps-3" style="color: #0062ae;"> Pullmax Pullmatic 720 </h2>
+                  <div class="card-body">
+                    <p>
+                      Stansmaskin utrustad med robot för in och utlastning av färdiga detaljer, samt extern gängstation. <br>
+                      Stansning: 0,7-3,0 mm <br>
+                      Max plåtformat: 3000x1500 <br>
+                      Max presskraft: 220 kN
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="card">
+                  <img src="Images/s-murata.jpg" alt="" class="card-img-top">
+                  <h2 class="card-title ps-3" style="color: #0062ae;"> Murata Wiedemann </h2>
+                  <div class="card-body">
+                    <p>
+                      Stansmaskin utrustad med automatisk materialhantering. <br>
+                      Max plåtformat: 2500x1250 <br>
+                      Max presskfraft: 300 kN
+                      <br><br><br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <h4 class="text-center mt-4" style="color: #0062ae;">Bockning</h4>
+            <div class="container">
+              <div class="row mt-4 row-gap-3">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="card">
+                    <img src="Images/salvagnini.jpg" alt="" class="card-img-top">
+                    <h2 class="card-title ps-3" style="color: #0062ae;"> Salvagnini P4-1916 </h2>
+                    <div class="card-body">
+                      <p>
+                        Panelbockmaskin utrustad med robotiserat staplingssystem för obemannad drift. <br>
+                        Max bocklängd: 1950 mm <br>
+                        Max bockhöjd: 167 mm 
+                        <br><br> <!-- bråkar-->
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="card">
+                    <img src="Images/SafanDarley E-Brake - 2016.jpg" alt="" class="card-img-top">
+                    <h2 class="card-title ps-3" style="color: #0062ae;"> SafanDarley E-Brake - 2016 </h2>
+                    <div class="card-body">
+                      <p>
+                        Servoelektrisk kantpress <br>
+                        Max bocklängd: 2550 mm <br>
+                        Presskraft: 650 kN <br>
+                        Slaglängd 300 mm <br>
+                        Individuella anslag
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="card">
+                  <img src="Images/FinnPowerEbrakeE80.jpg" alt="" class="card-img-top">
+                  <h2 class="card-title ps-3" style="color: #0062ae;"> Finn Power E-Brake E80 </h2>
+                  <div class="card-body">
+                    <p>
+                      Servoelektrisk kantpress <br>
+                      Max bocklängd: 2500 mm <br>
+                      Presskraft: 800 kN
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="card">
+                  <img src="Images/Finn Power E-Brake E40.jpg" alt="" class="card-img-top">
+                  <h2 class="card-title ps-3" style="color: #0062ae;"> Finn Power E-Brake E40 </h2>
+                  <div class="card-body">
+                    <p>
+                      Servoelektrisk kantpress <br>
+                      Max bocklängd: 1600 mm <br>
+                      Presskraft: 400 kN
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="card">
+                <img src="Images/Ursviken EKP 250CNC 455-375.jpg" alt="" class="card-img-top">
+                <h2 class="card-title ps-3" style="color: #0062ae;"> Ursviken EKP 250CNC 455/375 </h2>
+                <div class="card-body">
+                  <p>
+                    Hydraulisk kantpress <br>
+                    Max bocklängd: 4000 mm <br>
+                    Presskraft 2500 kN 
+                    <br><br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="card">
+                <img src="Images/Beyeler - 2003.jpg" alt="" class="card-img-top">
+                <h2 class="card-title ps-3" style="color: #0062ae;"> Beyeler &dash; 2003 </h2>
+                <div class="card-body">
+                  <p>
+                    Hydraulisk kantpress <br>
+                    Max bocklängd: 3100 mm <br>
+                    Presskraft 1000 kN <br>
+                    Slaglängd 415 mm
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+
+        </div>
+    </section>
+</main>
+
+
+
+<!-- FOOTER START -->
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <img src="Images/logo-white.png" alt="" style="max-width: 200px;">
+          <img src="Images/metalworks.png" alt="" style="max-width: 200px;">
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+</footer>
+
+<!-- FOOTER END -->    
+    
+</body>
+</html>
