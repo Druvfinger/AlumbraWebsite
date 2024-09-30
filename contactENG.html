@@ -13,8 +13,18 @@
 <script>
   fetch('headerENG.html')
     .then(response => response.text())
-    .then(data => document.querySelector('header').innerHTML= data)
-</script>
+    .then(data => {document.querySelector('header').innerHTML = data;
+  
+    let currentPage = window.location.pathname;
+    const engToggle = document.getElementById('ENG-Toggle');
+    if(engToggle){
+      let newHref = '';
+      if(currentPage.includes('ENG.html')){ newHref = currentPage.replace('ENG.html','.html');} 
+      else{ newHref = currentPage.replace('.html','ENG.html');}
+      engToggle.href = newHref;
+    }
+    });
+  </script>
 </head>
 <body>
 
